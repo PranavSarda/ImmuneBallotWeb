@@ -134,7 +134,7 @@ App = {
                 loader.hide();
                 content.show();
                 if (hasVoted) {
-                    $("#accdet").html("hasVoted: true ");
+                    $("#accdet").html("Dear Voter, you have already casted your vote. Thanks");
                 }
             })
             .catch(function (error) {
